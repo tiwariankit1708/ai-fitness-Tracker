@@ -8,15 +8,15 @@ const Homepage = () => {
       <section className="flex flex-col items-center justify-center py-16 px-4 text-center">
 
         <p className="text-lg text-slate-600 mb-8 max-w-2xl">
-          Track your form, count your reps, and analyze your progress using our advanced 
+          Track your form, count your reps, and analyze your progress using our advanced
           artificial intelligence engine.
         </p>
-        
-        {/* Central Picture Container */}
+
+        {/* Central Picture Container  */}
         <div className="relative w-full max-w-4xl h-96 bg-slate-200 rounded-2xl overflow-hidden shadow-2xl mb-12">
-          <img 
-            src="https://via.placeholder.com/800x450" 
-            alt="AI Fitness Tracking Interface" 
+          <img
+            src="https://via.placeholder.com/800x450"
+            alt="AI Fitness Tracking Interface"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
